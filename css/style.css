@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(122, 199, 170);
+    background-color: rgb(241, 241, 241);
     padding-top: 2em;
-    font-family: 'Inconsolata', monospace, Helvetica, sans-serif;
+    font-family: 'Segoe Ui', monospace, Helvetica, sans-serif;
 }
 /* hide screens */
 
@@ -9,6 +9,7 @@ body {
     display: block;
     margin: 0 auto;
 }
+
 .hide {
     display: none;
 }
@@ -20,7 +21,7 @@ body {
 .select-mode {
     position: relative;
     top: 100px;
-    color: rgb(48, 48, 48);
+    color: rgb(74, 74, 74);
     font-size: 20px;
 
 }
@@ -31,16 +32,16 @@ body {
     width: 137px;
     height: 24px;
     border: none;
-    background-color: white;
-    color: #313131;
+    background-color: #356b57;
+    color: #d4d4d4;
+    font-size: 11px;
     outline: none;
     cursor: pointer;
-    border: #454545 1px solid;
-    border-radius: 24px;
+    border-radius: 4px;
 }
 
 .mode-buttons:hover {
-    background-color: darkred;
+    background-color: #1c3e31;
 }
 
 /* go back */
@@ -84,22 +85,18 @@ body {
 }
 
 .score-holders {
-    color: rgb(167, 48, 48);
-    font-weight: bold;
+    color: rgb(189, 12, 53);
     width: 63px;
     height: 22px;
     font-size: 27px;
     position: relative;
-    left: -33px;
-    bottom: -11px;
- 
+    left: -20px;
+    bottom: -9px;
 }
 
 .highlight {
-    color: white;
+    color: #5f5f5f;
     width: 100px;
-    font-family: 'Bangers', cursive;
-    letter-spacing: 0.07rem;
     position: relative;
     top: 20px;
 }
@@ -110,18 +107,16 @@ body {
     left: 212px;
     width: 93px;
     height: 33px;
-    background-color: transparent;
-    color: white;
-    border-radius: 0px;
-    border: none;
-    font-family: 'Permanent Marker', cursive;
+    color: #9a4b4b;
     background-color: transparent;
     font-size: 13px;
-    letter-spacing: 0.05rem;
+    font-family: "Segoe Ui";
+    font-weight: 500;
 }
 
 #reset:hover {
     color: rgb(221, 36, 7);
+
 
 }
 
@@ -161,7 +156,6 @@ body {
     background-color: transparent;
     outline: none;
     border: none;
-    color: white; 
     font-size: 40px;  
     font-family: 'Permanent Marker', cursive;
 }
@@ -177,7 +171,6 @@ body {
     left: 37px;
     height: 33px;
     width: 174px;
-    font-family: 'Permanent Marker', cursive;
     color: #000000a6;
     transition: 3s;
     
@@ -189,14 +182,14 @@ body {
 }
 
 .p1-turn {
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(154, 75, 75);
     color: white;
     position: relative;
 }
 
 .p2-turn {
-    background-color: rgb(25, 105, 128);
-    color: wheat;
+    background-color: rgb(102, 146, 132);
+    color: white;
     position: relative;
 }
 
@@ -236,12 +229,10 @@ body {
     left: -55px;
     top: -54px;
     border-radius: 0;
-    font-family: 'Bangers', cursive;
     border: none;
-    background-color: transparent;
-    color: white;
-    letter-spacing: 0.06rem;
-    font-size: 18px;
+    color: rgb(154, 75, 75);
+    font-size: 13px;
+    background: #222;
 }
 
 #play-again:hover {
@@ -255,5 +246,5 @@ body {
     bottom: 198px;
     font-size: 70px;
     text-align: center;
-    color: gold;
+    color: #3a0014;
 }

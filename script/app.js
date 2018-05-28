@@ -40,7 +40,7 @@ var p1ScoreHolder = document.getElementById('player-one-score');
 var p2ScoreHolder = document.getElementById('player-two-score');
 var p1TurnCard = document.getElementById('p1-turn');
 var p2TurnCard = document.getElementById('p2-turn');
-var p1Color = 'white';
+var p1Color = '#9a4b4b';
 var p2Color = '#00000099';
 
 // listeners
